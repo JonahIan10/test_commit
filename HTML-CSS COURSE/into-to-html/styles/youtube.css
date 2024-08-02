@@ -1,0 +1,46 @@
+.p1 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.p2 {
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 5px;
+    color: grey;
+    margin-bottom: 22px;
+}
+.p3 {
+    font-family: Arial;
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.p4 {
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 280px;
+    line-height: 22px;
+    margin-top: 22px;
+    margin-bottom: 120px;
+}
+.p5 {
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.shop {
+    cursor: pointer;
+}
+.shop:hover {
+    text-decoration-line: underline;
+}

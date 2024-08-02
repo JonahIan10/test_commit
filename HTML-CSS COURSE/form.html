@@ -1,0 +1,124 @@
+<!DOCTYPE  html>
+<html lang="en">
+    <head>
+        <meta charset="utf=8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>filling form</title>
+        <style>
+            h1,
+            p{
+                font-family: arial;
+                font-size: 15px;
+                font-weight: bold;
+                text-align: center;
+                text-decoration: underline;
+            }
+            .project {
+                margin-top: 10px;
+                margin-bottom: 30px;
+                margin-left: 10px;
+                color: black;
+            }
+            .start {
+                margin-top: 10px;
+                margin-bottom: 30px;
+                margin-left: 10px;
+                color: black;
+            }
+            .assigned{
+                margin-top: 10px;
+                margin-bottom: 30px;
+                margin-left: 10px;
+                color: black;
+            }
+            .end{
+                margin-top: 10px;
+                margin-bottom: 30px;
+                margin-left: 10px;
+                color: black;
+            }
+            .priority{
+                margin-top: 10px;
+                margin-bottom: 30px;
+                margin-left: 10px;
+                color: black;
+            }
+            .description{
+                margin-top: 10px;
+                margin-bottom: 30px;
+                margin-left: 10px;
+                color: black;
+            }
+            .submit {
+                background-color: rgb(60, 180, 4);
+                color: white;
+                margin-left: 70px;
+                margin-right: 15px;
+                margin-bottom: 10px;
+                border-style: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 2px;
+                cursor: pointer;
+                transition: background-color 1s
+            }
+            .submit:hover{
+                background-color: green;
+            }
+            .clear{
+                background-color: rgb(0, 162, 255);
+                color: white;
+                margin-bottom: 10px;
+                border-style: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 2px;
+                cursor: pointer;
+                transition: background-color 1s
+            }
+            .clear:hover{
+                background-color: rgb(0, 119, 255);
+            }
+            .fieldset{
+                background-color: rgb(0, 225, 255);
+            }
+            input[type="text"] {
+                padding-left: 5px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Content</h1>
+        <p>Project Management</p>
+       <form>
+        <fieldset class="fieldset">
+            <div class="project">Project Name <input type="text" placeholder="project name"></div>
+            <div class="start">Start Date <input type="text" placeholder="dd-mm-yyyy"></div>
+            <label for="assigned">Assigned to <input type="text" placeholder="Er Merry Petision">
+                <select>
+                    <option>Jonah Ian</option>
+                    <option>Hendry Halachi</option>
+                    <option>Patricia Deraso</option>     
+                </select>
+            </label>
+            <div class="end">End Date <input type="text" placeholder="dd-mm-yyyy"></div>
+            <div class="priority">Priority
+                <label for="high-priority"><input type="radio" id="high-priority" name="priority" checked />High</label>
+                <label for="average-priority"><input type="radio" id="average-priority" name="priority" />Average</label>
+                <label for="low-priority"><input type="radio" id="low-priority" name="priority" />low</label>
+
+            </div>
+            <div class="description">Description <input type="text" placeholder="Type..."></div>
+            <button class="submit">Submit</button>
+            <button class="clear">Clear</button>
+        </fieldset>
+       </form> 
+    </body>
+</html>
